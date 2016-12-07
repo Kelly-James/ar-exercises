@@ -10,3 +10,13 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+pp "Hello, Please Provide a Store Name!"
+
+@store = gets.chomp
+
+pp @store
+
+store7 = Store.create(
+  name: @store
+)
